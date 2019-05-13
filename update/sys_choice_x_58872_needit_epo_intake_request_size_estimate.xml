@@ -6,6 +6,25 @@
             <element>size_estimate</element>
             <hint/>
             <inactive>true</inactive>
+            <label>Extra Small (&lt;$1 million, &lt;12 months, &lt;5 FTEs)</label>
+            <language>en</language>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-13 20:22:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ed5e77c74f15330028634f00a310c70a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-13 21:42:25</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>size_estimate</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>Extra Large (&gt;$30 million, 36+ months, 20 FTEs)</label>
             <language>en</language>
             <name>x_58872_needit_epo_intake_request</name>
@@ -25,19 +44,19 @@
             <element>size_estimate</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Extra Small (&lt;$1 million, &lt;12 months, &lt;5 FTEs)</label>
+            <label>Not Yet Completed</label>
             <language>en</language>
             <name>x_58872_needit_epo_intake_request</name>
-            <sequence>1</sequence>
+            <sequence>0</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-05-13 20:22:47</sys_created_on>
+            <sys_created_on>2019-05-13 21:42:25</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>ed5e77c74f15330028634f00a310c70a</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_id>ba7198534f55330028634f00a310c7a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-05-13 20:43:18</sys_updated_on>
-            <value>1</value>
+            <sys_updated_on>2019-05-13 21:42:25</sys_updated_on>
+            <value>not yet completed</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -62,6 +81,25 @@
             <dependent_value/>
             <element>size_estimate</element>
             <hint/>
+            <inactive>false</inactive>
+            <label>Extra Small (&lt;$1 million, &lt;12 months, 5 FTEs)</label>
+            <language>en</language>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-13 21:42:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3a7198534f55330028634f00a310c7a8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-13 21:43:43</sys_updated_on>
+            <value>extra small</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>size_estimate</element>
+            <hint/>
             <inactive>true</inactive>
             <label>Medium ($5 million, 24 months, 5 FTEs)</label>
             <language>en</language>
@@ -76,6 +114,25 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-05-13 20:43:18</sys_updated_on>
             <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>size_estimate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Small ($1 million, 12 months, 5 FTEs)</label>
+            <language>en</language>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-13 21:42:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b67198534f55330028634f00a310c7a9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-13 21:45:50</sys_updated_on>
+            <value>small</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -100,6 +157,25 @@
             <dependent_value/>
             <element>size_estimate</element>
             <hint/>
+            <inactive>false</inactive>
+            <label>Medium ($5 million, 24 months, 5 FTEs)</label>
+            <language>en</language>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-13 21:42:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>367198534f55330028634f00a310c7aa</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-13 21:45:50</sys_updated_on>
+            <value>medium</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>size_estimate</element>
+            <hint/>
             <inactive>true</inactive>
             <label>Small ($1 million, 12 months, 5 FTEs)</label>
             <language>en</language>
@@ -114,6 +190,44 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-05-13 20:43:18</sys_updated_on>
             <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>size_estimate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Large ($10 million, 36 months, 10 FTEs)</label>
+            <language>en</language>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-13 21:42:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f271d8534f55330028634f00a310c702</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-13 21:45:50</sys_updated_on>
+            <value>large</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>size_estimate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Extra Large (&gt;$30 million, 36+ months, 20 FTEs)</label>
+            <language>en</language>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-13 21:42:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7271d8534f55330028634f00a310c703</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-13 21:45:50</sys_updated_on>
+            <value>extra large</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>size_estimate</element>

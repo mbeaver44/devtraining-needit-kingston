@@ -1,10 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="EPO-Intake-Request" max_length="40" name="x_58872_needit_epo_intake_request" type="collection">
-        <element choice="1" label="Size_Estimate" mandatory="true" max_length="80" name="size_estimate" type="string">
+        <element choice="3" default="not yet completed" label="Size Estimate" mandatory="true" max_length="80" name="size_estimate" type="string" use_dependent_field="true">
             <choice>
-                <element label="Extra Small (&lt;$1 million, &lt;12 months, &lt;5 FTEs)" sequence="1" value="1"/>
+                <element label="Not Yet Completed" sequence="0" value="not yet completed"/>
+                <element label="Extra Small (&lt;$1 million, &lt;12 months, 5 FTEs)" sequence="1" value="extra small"/>
+                <element label="Small ($1 million, 12 months, 5 FTEs)" sequence="2" value="small"/>
+                <element label="Medium ($5 million, 24 months, 5 FTEs)" sequence="3" value="medium"/>
+                <element label="Large ($10 million, 36 months, 10 FTEs)" sequence="4" value="large"/>
+                <element label="Extra Large (&gt;$30 million, 36+ months, 20 FTEs)" sequence="5" value="extra large"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="not yet completed" label="What strategic objective does this change align to?" mandatory="true" max_length="40" name="u_choice_10" type="string">
+            <choice>
+                <element label="Not Yet Completed" sequence="0" value="not yet completed"/>
+                <element label="Deliver the Value Promise (PCE)" sequence="1" value="deliver the value promise (pce)"/>
+                <element label="Ensure Strong Associate Value Proposition" sequence="2" value="ensure strong associate value proposition"/>
+                <element label="Drive Revenue Growth" sequence="3" value="drive revenue growth"/>
+                <element label="Continue Risk Governance Buildout Framework" sequence="4" value="continue risk governance buildout framework"/>
+                <element label="Aggresively Manage Expenses" sequence="5" value="aggresively manage expenses"/>
+                <element label="Accelerate BB&amp;Ts Digital Transformation" sequence="6" value="accelerate bb&amp;ts digital transformation"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="not yet completed" label="Change Initiative Type" mandatory="true" max_length="40" name="u_choice_2" type="string">
+            <choice>
+                <element label="Not Yet Completed" sequence="0" value="not yet completed"/>
+                <element label="Business Unit" sequence="1" value="business unit"/>
+                <element label="Facilities" sequence="2" value="facilities"/>
+                <element label="Technical" sequence="3" value="technical"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="not yet completed" label="Change Initiative Subtype" mandatory="true" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element label="Not Yet Completed" sequence="0" value="not yet completed"/>
+                <element label="Digital" sequence="1" value="digital"/>
+                <element label="Evergreen" sequence="2" value="evergreen"/>
+                <element label="Operational Excellence" sequence="3" value="operational excellence"/>
+                <element label="Revenue" sequence="4" value="revenue"/>
+                <element label="Risk &amp; Regulatory" sequence="5" value="risk &amp; regulatory"/>
+                <element label="Other" sequence="6" value="other"/>
+            </choice>
+        </element>
+        <element label="New Long" max_length="40" name="u_longint_4" type="longint"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="255" name="u_string_full_utf8_11" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="Business Objectives" max_length="255" name="u_string_full_utf8_5" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="Impact/ Risks if Not Approved" max_length="255" name="u_string_full_utf8_7" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="Description of Change" max_length="255" name="u_string_full_utf8_8" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="Business Priority" max_length="255" name="u_string_full_utf8_9" type="string_full_utf8"/>
     </element>
 </database>
