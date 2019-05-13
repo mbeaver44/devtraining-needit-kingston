@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="EPO-Intake-Request" max_length="40" name="x_58872_needit_epo_intake_request" type="collection">
+        <element choice="1" label="Size_Estimate" mandatory="true" max_length="80" name="size_estimate" type="string">
+            <choice>
+                <element label="Extra Small (&lt;$1 million, &lt;12 months, &lt;5 FTEs)" sequence="1" value="1"/>
+            </choice>
+        </element>
+    </element>
+</database>
