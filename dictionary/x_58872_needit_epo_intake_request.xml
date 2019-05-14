@@ -22,12 +22,130 @@
                 <element label="Accelerate BB&amp;Ts Digital Transformation" sequence="6" value="accelerate bb&amp;ts digital transformation"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="not yet completed" label="Change Manager" max_length="40" name="u_choice_11" type="string">
+            <choice>
+                <element label="Not Yet Completed" sequence="0" value="not yet completed"/>
+                <element label="Elise McMillan" sequence="1" value="elise mcmillan"/>
+                <element label="Brian McMurray" sequence="2" value="brian mcmurray"/>
+                <element label="Eddie McShay" sequence="3" value="eddie mcshay"/>
+                <element label="Arnie Ogburn" sequence="4" value="arnie ogburn"/>
+                <element label="Sarah Radspinner" sequence="5" value="sarah radspinner"/>
+                <element label="Kim Taylor" sequence="6" value="kim taylor"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="not yet completed" label="Secondary Change Manager" max_length="40" name="u_choice_12" type="string">
+            <choice>
+                <element label="Not Yet Completed" sequence="0" value="not yet completed"/>
+                <element label="Elise McMillan" sequence="1" value="elise mcmillan"/>
+                <element label="Brian McMurray" sequence="2" value="brian mcmurray"/>
+                <element label="Eddie McShay" sequence="3" value="eddie mcshay"/>
+                <element label="Arnie Ogburn" sequence="4" value="arnie ogburn"/>
+                <element label="Sara Radspinner" sequence="5" value="sara radspinner"/>
+                <element label="Kim Taylor" sequence="6" value="kim taylor"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="not yet completed" label="Primary Enterprise Technology Division" mandatory="true" max_length="40" name="u_choice_13" type="string">
+            <choice>
+                <element label="Not Yet Completed" sequence="0" value="not yet completed"/>
+                <element label="Commercial and Corporate Banking" sequence="1" value="corporate community banking (ccb) and corporate institutional group (cig)"/>
+                <element label="Digital Channels &amp; Innovation" sequence="2" value="digital channels &amp; innovation"/>
+                <element label="Shared Services, Insurance, and Private Wealth Management" sequence="3" value="shared services"/>
+                <element label="Corporate Functions" sequence="4" value="corporate functions"/>
+                <element label="Retail Banking" sequence="5" value="retail banking"/>
+                <element label="Platform Engineering" sequence="6" value="platform engineering"/>
+                <element label="Enterprise Data" sequence="7" value="enterprise data"/>
+                <element label="Enterprise Architecture" sequence="8" value="enterprise architecture"/>
+                <element label="Information Security" sequence="9" value="information security"/>
+                <element label="Analytics" sequence="10" value="Analytics"/>
+                <element label="Business Unit Risk Management" sequence="13" value="business unit risk management"/>
+                <element label="Technology Business Services" sequence="14" value="technology business services"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="not yet completed" label="Requested Funding Source" mandatory="true" max_length="40" name="u_choice_16" type="string" use_dependent_field="true">
+            <choice>
+                <element label="Not Yet Completed" sequence="0" value="not yet completed"/>
+                <element label="BIO" sequence="1" value="bio"/>
+                <element label="Business Unit" sequence="2" value="business unit"/>
+                <element label="D&amp;TS (&quot;To Fund&quot; list)" sequence="3" value="d&amp;ts (&quot;to fund&quot; list)"/>
+                <element label="Funding Portfolio" sequence="4" value="funding portfolio"/>
+                <element label="TBD" sequence="5" value="tbd"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="EPO Funding Portfolio Candidate?" max_length="40" name="u_choice_17" read_only="true" type="string">
+            <choice>
+                <element label="No" sequence="0" value="no"/>
+                <element label="Yes" sequence="1" value="yes"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="EPO/ BIO Project?" max_length="40" name="u_choice_19" read_only="true" type="string">
+            <choice>
+                <element label="EPO" sequence="0" value="epo"/>
+                <element label="BIO" sequence="1" value="bio"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="not yet completed" label="Change Initiative Type" mandatory="true" max_length="40" name="u_choice_2" type="string">
             <choice>
                 <element label="Not Yet Completed" sequence="0" value="not yet completed"/>
                 <element label="Business Unit" sequence="1" value="business unit"/>
                 <element label="Facilities" sequence="2" value="facilities"/>
                 <element label="Technical" sequence="3" value="technical"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="not yet completed" label="New, changed or discontinued external client-facing product or service?" max_length="40" name="u_choice_22" type="string">
+            <choice>
+                <element label="Not Yet Completed" sequence="0" value="not yet completed"/>
+                <element label="Yes - New" sequence="1" value="yes - new"/>
+                <element label="Yes - Reactivated" sequence="2" value="yes - reactivated"/>
+                <element label="Yes - Bundled" sequence="3" value="yes - bundled"/>
+                <element label="Yes - Modified" sequence="4" value="yes - modified"/>
+                <element label="Yes - Discontinued" sequence="5" value="yes - discontinued"/>
+                <element label="No" sequence="6" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="not yet completed" label="Change to client segmentation, state, country or industries for product?" mandatory="true" max_length="40" name="u_choice_23" type="string">
+            <choice>
+                <element label="Not Yet Completed" sequence="0" value="not yet completed"/>
+                <element label="Yes - New client segment or industry" sequence="1" value="yes - new client segment or industry"/>
+                <element label="Yes - New state or country" sequence="2" value="yes - new state or country"/>
+                <element label="Yes - Expanded client segment or industry" sequence="3" value="yes - expanded client segment or industry"/>
+                <element label="Yes - Discontinued client segment or industry" sequence="4" value="yes - discontinued client segment or industry"/>
+                <element label="Yes - Discontinued state or country" sequence="5" value="yes - discontinued state or country"/>
+                <element label="No" sequence="6" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="not yet completed" label="New, reactivated, discontinued or other significant change?" mandatory="true" max_length="40" name="u_choice_24" type="string">
+            <choice>
+                <element label="Not Yet Completed" sequence="0" value="not yet completed"/>
+                <element label="Yes - New" sequence="1" value="yes - new"/>
+                <element label="Yes - Reactivated" sequence="2" value="yes - reactivated"/>
+                <element label="Yes - Discontinued" sequence="3" value="yes - discontinued"/>
+                <element label="Yes - Other Significant Change" sequence="4" value="yes - other significant change"/>
+                <element label="No" sequence="5" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="not yet completed" label="Involve creating, redesigning, or discontinuing portal or channel?" max_length="40" name="u_choice_25" type="string">
+            <choice>
+                <element label="Not Yet Completed" sequence="0" value="not yet completed"/>
+                <element label="Yes - New" sequence="1" value="yes - new"/>
+                <element label="Yes - Redesigned" sequence="2" value="yes - redesigned"/>
+                <element label="Yes - Expanded" sequence="3" value="yes - expanded"/>
+                <element label="Yes - Discontinued" sequence="4" value="yes - discontinued"/>
+                <element label="No" sequence="5" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="not yet completed" label="Impact level to operational processes at a business unit or department" mandatory="true" max_length="40" name="u_choice_26" type="string">
+            <choice>
+                <element label="Not Yet Completed" sequence="0" value="not yet completed"/>
+                <element label="No impacts" sequence="1" value="no impacts"/>
+                <element label="Minimal process adjustments affecting less than 25 percent of the current process" sequence="2" value="minimal process adjustments affecting less than 25 percent of the current process"/>
+                <element label="Moderate process adjustments affecting 25-50 percent of the current process" sequence="3" value="moderate process adjustments affecting 25-50 percent of the current process"/>
+                <element label="Significant process redesign or change affecting greater than 50 percent of the current process" sequence="4" value="significant process redesign or change affecting greater than 50 percent of the current process"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="BIO Project: NPIRA Candidate" max_length="40" name="u_choice_27" read_only="true" type="string">
+            <choice>
+                <element label="No" sequence="0" value="no"/>
+                <element label="Yes" sequence="1" value="yes"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="not yet completed" label="Change Initiative Subtype" mandatory="true" max_length="40" name="u_choice_3" type="string">
@@ -41,8 +159,67 @@
                 <element label="Other" sequence="6" value="other"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="not yet completed" label="Audit" mandatory="true" max_length="40" name="u_choice_5" type="string">
+            <choice>
+                <element label="Not Yet Completed" sequence="0" value="not yet completed"/>
+                <element label="Audit Services" sequence="1" value="audit services"/>
+                <element label="Audit Quality Assurance and Improvement Team" sequence="2" value="audit quality assurance and improvement team"/>
+                <element label="Audit-Compliance Risk" sequence="3" value="audit-compliance risk"/>
+                <element label="Audit-Credit Risk" sequence="4" value="audit-credit risk"/>
+                <element label="Audit-Financial Services, Insurance, Accounting and Financial Reporting" sequence="5" value="Audit-Financial Services"/>
+                <element label="Audit-Market Liquidity and Capital" sequence="6" value="Audit-Market"/>
+                <element label="Audit-Operational Risk" sequence="7" value="audit-operational risk"/>
+                <element label="Digital, Cyber Security, and IT Risk" sequence="8" value="Digital"/>
+                <element label="Governance, Risk Management, and Audit Services" sequence="9" value="Governance"/>
+                <element label="Talent Management" sequence="10" value="talent management"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="not yet completed" label="Sponsoring Business Unit" mandatory="true" max_length="40" name="u_choice_7" type="string">
+            <choice>
+                <element label="Not Yet Completed" sequence="0" value="not yet completed"/>
+                <element label="Audit" sequence="1" value="audit"/>
+                <element label="Community Bank Retail &amp; Consumer Finance" sequence="2" value="community bank retail &amp; consumer finance"/>
+                <element label="Corporate Operating Group" sequence="3" value="corporate operating group"/>
+                <element label="Data &amp; Technology Services" sequence="4" value="data &amp; technology services"/>
+                <element label="Digital Client Experience &amp; Marketing" sequence="5" value="digital client experience &amp; marketing"/>
+                <element label="Financial Management" sequence="6" value="financial management"/>
+                <element label="Financial Services" sequence="7" value="financial services"/>
+                <element label="Legal" sequence="8" value="legal"/>
+                <element label="Operations Shared Services" sequence="9" value="operations shared services"/>
+                <element label="Risk Management Organization" sequence="10" value="risk management organization"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="not yet completed" label="Sponsor" mandatory="true" max_length="40" name="u_choice_8" type="string">
+            <choice>
+                <element label="Not Yet Completed" sequence="0" value="not yet completed"/>
+                <element label="Sponsor A" sequence="1" value="sponsor a"/>
+                <element label="Sponsor B" sequence="2" value="sponsor b"/>
+                <element label="Sponsor C" sequence="3" value="sponsor c"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="not yet completed" label="Executive Sponsor" mandatory="true" max_length="40" name="u_choice_9" type="string">
+            <choice>
+                <element label="Not Yet Completed" sequence="0" value="not yet completed"/>
+                <element label="Daryl Bible" sequence="1" value="daryl bible"/>
+                <element label="Chris Henson" sequence="2" value="chris henson"/>
+                <element label="David Weaver" sequence="3" value="david weaver"/>
+                <element label="Brant Standridge" sequence="4" value="brant standridge"/>
+                <element label="Mike Maquire" sequence="5" value="mike maquire"/>
+                <element label="Bill Rogers" sequence="6" value="bill rogers"/>
+                <element label="Scott Case" sequence="7" value="scott case"/>
+                <element label="Beau Cummins" sequence="8" value="beau cummins"/>
+                <element label="Ellen Fitzsimmons" sequence="9" value="ellen fitzsimmons"/>
+                <element label="Joe Thompson" sequence="10" value="joe thompson"/>
+                <element label="Donta Wilson" sequence="11" value="donta wilson"/>
+                <element label="Clarke Starnes" sequence="12" value="clarke starnes"/>
+                <element label="Ellen Koebler" sequence="13" value="ellen koebler"/>
+            </choice>
+        </element>
+        <element label="Submission ID" max_length="80" name="u_field_name_4" read_only="true" type="field_name"/>
         <element label="New Long" max_length="40" name="u_longint_4" type="longint"/>
+        <element attributes="edge_encryption_enabled=true" label="Request Name" mandatory="true" max_length="255" name="u_string_full_utf8_1" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" label="Comments" max_length="255" name="u_string_full_utf8_11" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="Secondary Enterprise Technology Division(s)" max_length="255" name="u_string_full_utf8_14" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" label="Business Objectives" max_length="255" name="u_string_full_utf8_5" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" label="Impact/ Risks if Not Approved" max_length="255" name="u_string_full_utf8_7" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" label="Description of Change" max_length="255" name="u_string_full_utf8_8" type="string_full_utf8"/>

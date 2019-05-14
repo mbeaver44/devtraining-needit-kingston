@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_choice_5" table="x_58872_needit_epo_intake_request" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_5</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not Yet Completed</label>
+            <language>en</language>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-14 12:15:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7599f974fd9330028634f00a310c71b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-14 12:15:44</sys_updated_on>
+            <value>not yet completed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_5</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Audit Services</label>
+            <language>en</language>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-14 12:15:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e7599f974fd9330028634f00a310c71c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-14 12:15:44</sys_updated_on>
+            <value>audit services</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_5</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Audit Quality Assurance and Improvement Team</label>
+            <language>en</language>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-14 12:15:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>67599f974fd9330028634f00a310c71d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-14 12:15:44</sys_updated_on>
+            <value>audit quality assurance and improvement team</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_5</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Audit-Compliance Risk</label>
+            <language>en</language>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-14 12:15:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e3599f974fd9330028634f00a310c71e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-14 12:15:44</sys_updated_on>
+            <value>audit-compliance risk</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_5</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Audit-Credit Risk</label>
+            <language>en</language>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-14 12:15:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>63599f974fd9330028634f00a310c71f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-14 12:15:44</sys_updated_on>
+            <value>audit-credit risk</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_5</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Audit-Financial Services, Insurance, Accounting and Financial Reporting</label>
+            <language>en</language>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-14 12:15:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ef599f974fd9330028634f00a310c71f</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-14 12:19:06</sys_updated_on>
+            <value>Audit-Financial Services</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_5</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Audit-Market Liquidity and Capital</label>
+            <language>en</language>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-14 12:15:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6f599f974fd9330028634f00a310c720</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-14 12:19:06</sys_updated_on>
+            <value>Audit-Market</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_5</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Audit-Operational Risk</label>
+            <language>en</language>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-14 12:15:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eb599f974fd9330028634f00a310c721</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-14 12:17:00</sys_updated_on>
+            <value>audit-operational risk</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_5</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Digital, Cyber Security, and IT Risk</label>
+            <language>en</language>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-14 12:15:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6b599f974fd9330028634f00a310c722</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-14 12:19:06</sys_updated_on>
+            <value>Digital</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_5</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Governance, Risk Management, and Audit Services</label>
+            <language>en</language>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sequence>9</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-14 12:15:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e7599f974fd9330028634f00a310c723</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-14 12:19:06</sys_updated_on>
+            <value>Governance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_5</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Talent Management</label>
+            <language>en</language>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-14 12:15:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>67599f974fd9330028634f00a310c724</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-14 12:17:00</sys_updated_on>
+            <value>talent management</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_choice_5</element>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-14 12:15:44</sys_created_on>
+            <sys_id>a3599f974fd9330028634f00a310c71c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_choice_5</sys_name>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_choice_x_58872_needit_epo_intake_request_u_choice_5</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-14 12:15:44</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_choice_13" table="x_58872_needit_epo_intake_request" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_13</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Insurance</label>
+            <language>en</language>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-14 13:07:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a545275f4fd9330028634f00a310c783</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-14 13:14:51</sys_updated_on>
+            <value>insurance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_13</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not Yet Completed</label>
+            <language>en</language>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-14 13:07:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e945275f4fd9330028634f00a310c77f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-14 13:07:45</sys_updated_on>
+            <value>not yet completed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_13</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Commercial and Corporate Banking</label>
+            <language>en</language>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-14 13:07:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2d45275f4fd9330028634f00a310c780</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-14 13:14:51</sys_updated_on>
+            <value>corporate community banking (ccb) and corporate institutional group (cig)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_13</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Private Wealth Management</label>
+            <language>en</language>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-14 13:07:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2545275f4fd9330028634f00a310c784</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-14 13:14:51</sys_updated_on>
+            <value>private wealth management</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_13</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Digital Channels &amp; Innovation</label>
+            <language>en</language>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-14 13:07:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a945275f4fd9330028634f00a310c781</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-14 13:07:45</sys_updated_on>
+            <value>digital channels &amp; innovation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_13</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Shared Services, Insurance, and Private Wealth Management</label>
+            <language>en</language>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-14 13:07:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2945275f4fd9330028634f00a310c782</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-14 13:14:51</sys_updated_on>
+            <value>shared services</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_13</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Corporate Functions</label>
+            <language>en</language>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-14 13:07:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a145275f4fd9330028634f00a310c785</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-14 13:14:51</sys_updated_on>
+            <value>corporate functions</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_13</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Retail Banking</label>
+            <language>en</language>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-14 13:07:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2145275f4fd9330028634f00a310c786</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-14 13:14:51</sys_updated_on>
+            <value>retail banking</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_13</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Platform Engineering</label>
+            <language>en</language>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-14 13:14:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25e6639f4fd9330028634f00a310c7e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-14 13:14:51</sys_updated_on>
+            <value>platform engineering</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_13</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Enterprise Data</label>
+            <language>en</language>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-14 13:14:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a1e6639f4fd9330028634f00a310c7ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-14 13:14:51</sys_updated_on>
+            <value>enterprise data</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_13</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Enterprise Architecture</label>
+            <language>en</language>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-14 13:14:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>21e6639f4fd9330028634f00a310c7eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-14 13:14:51</sys_updated_on>
+            <value>enterprise architecture</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_13</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Information Security</label>
+            <language>en</language>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sequence>9</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-14 13:14:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ade6639f4fd9330028634f00a310c7eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-14 13:14:51</sys_updated_on>
+            <value>information security</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_13</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Analytics</label>
+            <language>en</language>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-14 13:14:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2de6639f4fd9330028634f00a310c7ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-14 13:14:51</sys_updated_on>
+            <value>Analytics</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_13</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Business Unit Risk Management</label>
+            <language>en</language>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sequence>13</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-14 13:14:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a9e6639f4fd9330028634f00a310c7ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-14 13:14:51</sys_updated_on>
+            <value>business unit risk management</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_13</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Technology Business Services</label>
+            <language>en</language>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sequence>14</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-14 13:14:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>29e6639f4fd9330028634f00a310c7ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-14 13:14:51</sys_updated_on>
+            <value>technology business services</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_choice_13</element>
+            <name>x_58872_needit_epo_intake_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-14 13:07:45</sys_created_on>
+            <sys_id>e545275f4fd9330028634f00a310c780</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_choice_13</sys_name>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_choice_x_58872_needit_epo_intake_request_u_choice_13</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-14 13:07:45</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
